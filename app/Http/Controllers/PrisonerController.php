@@ -11,7 +11,7 @@ class PrisonerController extends Controller
 
   public function index()
   {
-    return Prisoner::all();
+       return Prisoner::all();
   }
 
   public function show($PID)
